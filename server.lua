@@ -4,9 +4,9 @@
 ------------------------------
 
 --- CONFIG ---
-password = "fax" -- Set server password here
-kickMessage = "Invalid Password" -- The invalid password kick message. Default: Invalid Password
-timeRanOutMsg = "You ran out of time to enter the password" --Not active yet! Dont worry about this
+password = "*****" -- Set server password here
+kickMessage = "Incorrect Password. Please try again." -- The invalid password kick message. Default: Invalid Password
+timeRanOutMsg = "Error: Timeout - Ran out of time to enter password" --Not active yet! Dont worry about this
 timeoutMessage = "Invalid password. Please wait %s before trying to connect again." -- Displayed if the user tries to attempt too many times, this locks them out of the server for x seconds
 invalidPasswordTimeout = 5 * 60 -- Wait time before the player can re-join. Change the first value Not the '* 60'. Default: 5 minutes
 
